@@ -225,11 +225,11 @@ export default function AboutPage() {
           className="grid gap-10 md:grid-cols-3 grid-cols-2">
           {[
             { name: "Akshay Mashelkar", role: "Director", image: "https://ext.same-assets.com/815987621/336721882.jpeg" },
-            { name: "Lata Mashelkar", role: "Director", image: "https://ext.same-assets.com/815987621/4030263484.png" },
-            { name: "Adarsh Devadiga", role: "CTO", image: "https://ext.same-assets.com/815987621/628238613.png" },
-            { name: "Harish Bhat", role: "Intern", image: "https://ext.same-assets.com/815987621/2440400147.png" },
-            { name: "Subramanya Hegde", role: "Content Head", image: "https://ext.same-assets.com/815987621/1301119188.png" },
-            { name: "Ganapati Hegde", role: "Mentor", image: "https://ext.same-assets.com/815987621/3203286971.png" }
+            { name: "Lata Mashelkar", role: "Director", image: "https://ext.same-assets.com/815987621/3203286971.png" },
+            { name: "Adarsh Devadiga", role: "CTO", image: "https://ext.same-assets.com/815987621/4030263484.png" },
+            { name: "Harish Bhat", role: "Intern", image: "https://ext.same-assets.com/815987621/628238613.png" },
+            { name: "Subramanya Hegde", role: "Content Head", image: "https://ext.same-assets.com/815987621/2440400147.png" },
+            { name: "Ganapati Hegde", role: "Mentor", image: "https://experimindlabs.com/wp-content/uploads/Ganapathi-Hegde.png" }
           ].map((member, index) => (
             <motion.div 
               key={member.name}
